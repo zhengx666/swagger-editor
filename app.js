@@ -20,6 +20,6 @@ app.use( async ( ctx ) => {
     ctx.body = 'hello world'
 })
 
-app.listen(8080, () => {
+app.listen(3001, () => {
     console.log('[demo] static-use-middleware is starting at port 8080')
 })
