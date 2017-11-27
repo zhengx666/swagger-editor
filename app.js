@@ -21,5 +21,5 @@ app.use( async ( ctx ) => {
 })
 
 app.listen(3001, () => {
-    console.log('[demo] static-use-middleware is starting at port 8080')
-})
+    console.log('[demo] static-use-middleware is starting at port 3001')
+});
